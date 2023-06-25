@@ -229,7 +229,6 @@ for (let i = 0; i < 100; i += 1) {
     stars.push(new Star(x, y, mobile))
 }
 
-
 function animate() {
     requestAnimationFrame(animate)
     c.clearRect(0, 0, canvas.width, canvas.height)

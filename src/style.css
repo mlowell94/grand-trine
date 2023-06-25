@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(0deg, #CCC9DC, #0C1821);
+}
+
+canvas {
+    vertical-align: bottom;
+}
+
+#nebula {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+canvas + div {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 2.5vw;
+    font-family: 'Arial';
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    canvas + div {
+        font-size: 24px;
+        top: 12px;
+        right: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
